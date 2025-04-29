@@ -113,10 +113,6 @@ $active_page = "home";
                             <i class="bi bi-envelope-fill me-2"></i>
                             <span>contact@videoprocessor.com</span>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-telephone-fill me-2"></i>
-                            <span>+1 (555) 123-4567</span>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">

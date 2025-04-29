@@ -5,12 +5,7 @@
                 <div class="col-md-4 mb-4 mb-md-0">
                     <h5 class="mb-3">Video Processor</h5>
                     <p class="mb-3">Transform your social media videos with our powerful processing platform.</p>
-                    <div class="social-links">
-                        <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="me-2"><i class="bi bi-linkedin"></i></a>
-                    </div>
+
                 </div>
                 <div class="col-md-2 mb-4 mb-md-0">
                     <h5 class="mb-3">Links</h5>
@@ -25,7 +20,6 @@
                     <ul class="list-unstyled">
                         <li class="mb-2"><i class="bi bi-envelope me-2"></i>contact@videoprocessor.com</li>
                         <li class="mb-2"><i class="bi bi-telephone me-2"></i>+1 (555) 123-4567</li>
-                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>123 Tech Street, San Francisco, CA</li>
                     </ul>
                 </div>
                 <div class="col-md-3">
