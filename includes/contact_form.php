@@ -4,7 +4,8 @@ $formSubmitted = false;
 $formError = false;
 $errorMessage = '';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['contact_submit'])) {
+// Check if it's a POST request
+if (isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['contact_submit'])) {
     // Validate form inputs
     $name = trim($_POST['name'] ?? '');
     $email = trim($_POST['email'] ?? '');
@@ -56,15 +57,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['contact_submit'])) {
                 <form id="contactForm" method="post" action="#contactForm">
                     <div class="mb-3">
                         <label for="name" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name']) : ''; ?>" required>
+                        <input type="text" class="form-control" id="name" name="name" value="<?php echo isset($_POST) && isset($_POST['name']) ? htmlspecialchars($_POST['name']) : ''; ?>" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" name="email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" required>
+                        <input type="email" class="form-control" id="email" name="email" value="<?php echo isset($_POST) && isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="4" required><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message']) : ''; ?></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="4" required><?php echo isset($_POST) && isset($_POST['message']) ? htmlspecialchars($_POST['message']) : ''; ?></textarea>
                     </div>
                     <button type="submit" name="contact_submit" class="btn btn-primary w-100">Submit</button>
                 </form>

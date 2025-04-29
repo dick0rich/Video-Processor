@@ -34,9 +34,6 @@
                         <li class="nav-item">
                             <a class="nav-link <?php echo $active_page === 'privacy' ? 'active' : ''; ?>" href="privacy.php">Privacy Policy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary ms-lg-2" href="#">Sign Up</a>
-                        </li>
                     </ul>
                 </div>
             </div>
