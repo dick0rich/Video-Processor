@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <circle cx="40" cy="40" r="40" fill="#4361EE" fill-opacity="0.1"/>
+  <path d="M25 28C25 26.8954 25.8954 26 27 26H53C54.1046 26 55 26.8954 55 28V52C55 53.1046 54.1046 54 53 54H27C25.8954 54 25 53.1046 25 52V28Z" fill="#4361EE" fill-opacity="0.2"/>
+  <rect x="30" y="31" width="20" height="12" rx="2" fill="#4361EE"/>
+  <path d="M40 37L37 39L37 35L40 37Z" fill="white"/>
+  <path d="M30 47L30 54L36 54" stroke="#4361EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 54L50 54L50 47" stroke="#4361EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 31L30 24L36 24" stroke="#4361EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 24L50 24L50 31" stroke="#4361EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="58" cy="30" r="7" fill="#4CC9F0" fill-opacity="0.7"/>
+  <circle cx="22" cy="50" r="7" fill="#F72585" fill-opacity="0.7"/>
+  <circle cx="22" cy="30" r="4" fill="#3F37C9" fill-opacity="0.5"/>
+  <circle cx="58" cy="50" r="4" fill="#4895EF" fill-opacity="0.5"/>
+  <path d="M56 30L60 30" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M58 28L58 32" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
