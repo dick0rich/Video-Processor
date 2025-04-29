@@ -15,10 +15,6 @@ $active_page = "home";
                 <div class="col-lg-6">
                     <h1 class="display-4 fw-bold">Transform Your Social Media Videos</h1>
                     <p class="lead my-4">Effortlessly process, enhance, and optimize your videos for all social platforms in one place.</p>
-                    <div class="hero-buttons">
-                        <button class="btn btn-primary btn-lg me-2">Get Started</button>
-                        <button class="btn btn-outline-secondary btn-lg">Learn More</button>
-                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image">

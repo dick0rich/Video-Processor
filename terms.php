@@ -14,9 +14,7 @@ $active_page = "terms";
                 <div class="col-lg-8 mx-auto">
                     <h1 class="page-title mb-4">Terms of Service</h1>
                     <div class="card shadow-sm">
-                        <div class="card-body p-4 p-md-5">
-                            <p class="last-updated mb-4">Last Updated: <?php echo date('F d, Y'); ?></p>
-                            
+                        <div class="card-body p-4 p-md-5">                          
                             <section class="mb-4">
                                 <h2>1. Introduction</h2>
                                 <p>Welcome to the Video Processor platform. These Terms of Service ("Terms") govern your access to and use of our website, products, and services ("Services"). By using our Services, you agree to be bound by these Terms.</p>
@@ -43,10 +41,7 @@ $active_page = "terms";
                                 <h2>4. Prohibited Conduct</h2>
                                 <p>You agree not to misuse our Services. For example, you must not:</p>
                                 <ul>
-                                    <li>Use our Services for any illegal purpose</li>
-                                    <li>Upload content that infringes intellectual property rights</li>
-                                    <li>Upload content that contains illegal material</li>
-                                    <li>Attempt to access or tamper with non-public areas of the Services</li>
+                                                    <li>Attempt to access or tamper with non-public areas of the Services</li>
                                     <li>Probe, scan, or test the vulnerability of the Services</li>
                                     <li>Breach or circumvent any security or authentication measures</li>
                                 </ul>
@@ -74,7 +69,7 @@ $active_page = "terms";
                             
                             <section class="mb-4">
                                 <h2>9. Governing Law</h2>
-                                <p>These Terms shall be governed by the laws of the United States without regard to its conflict of law provisions.</p>
+                                <p>These Terms shall be governed by the laws of the Honduras without regard to its conflict of law provisions.</p>
                             </section>
                             
                             <section>

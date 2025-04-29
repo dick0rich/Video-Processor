@@ -15,8 +15,7 @@ $active_page = "privacy";
                     <h1 class="page-title mb-4">Privacy Policy</h1>
                     <div class="card shadow-sm">
                         <div class="card-body p-4 p-md-5">
-                            <p class="last-updated mb-4">Last Updated: <?php echo date('F d, Y'); ?></p>
-                            
+                                                        
                             <section class="mb-4">
                                 <h2>1. Introduction</h2>
                                 <p>We at Video Processor respect your privacy and are committed to protecting your personal data. This privacy policy describes how we collect, use, and disclose your personal information when you use our services.</p>
@@ -61,7 +60,7 @@ $active_page = "privacy";
                             <section class="mb-4">
                                 <h2>5. Data Retention</h2>
                                 <p>We retain your personal information for as long as necessary to fulfill the purposes outlined in this privacy policy, unless a longer retention period is required by law.</p>
-                                <p>Processed videos are typically stored for 30 days after processing, after which they may be deleted unless you have saved them to your account.</p>
+
                             </section>
                             
                             <section class="mb-4">
@@ -89,7 +88,7 @@ $active_page = "privacy";
                             
                             <section class="mb-4">
                                 <h2>9. Changes to This Privacy Policy</h2>
-                                <p>We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "Last Updated" date.</p>
+                                <p>We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page.</p>
                             </section>
                             
                             <section>
